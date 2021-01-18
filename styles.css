@@ -1,0 +1,106 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  background: #659dbd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+button {
+  font-family: "Yusei Magic", sans-serif;
+  color: #fbeec1;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 3rem;
+  padding: 0.5rem 1rem;
+  margin: 2rem;
+  border-radius: 2rem;
+  outline: transparent;
+  border: 1px solid #8d8741;
+  -webkit-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  -webkit-box-shadow: 0 0 15px black;
+  box-shadow: 0 0 15px black;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #8d874155;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  border-radius: 1rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.loading {
+  -webkit-filter: blur(15px);
+  filter: blur(15px);
+  border: 15px solid #8d8741;
+}
+
+h3 {
+  color: #fbeec1;
+  position: absolute;
+  top: calc(50% - 3rem);
+  text-align: center;
+  font-size: 3rem;
+  z-index: 1;
+  text-shadow: 1px 1px 1px black;
+}
