@@ -1,6 +1,6 @@
 const container = document.querySelector('.container');
 const load = document.createElement('h3');
-load.textContent = "Click for Cats!";
+load.textContent = "Enjoy!";
 const img = new Image();
 container.appendChild(load);
 container.appendChild(img);
